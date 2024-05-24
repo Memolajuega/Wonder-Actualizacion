@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,10 +22,9 @@
         src="https://www.facebook.com/tr?id=1576404096254182&ev=PageView&noscript=1"/>
     </noscript>
     <!-- End Meta Pixel Code -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
-
 
         body {
             margin: 0;
@@ -48,7 +46,6 @@
             margin-left: 30px;
         }
 
-
         header h1 {
             margin: 0;
         }
@@ -67,6 +64,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            position: relative; /* Para posicionar los íconos */
         }
 
         .cuerpo img {
@@ -74,15 +72,6 @@
             margin-left: auto;
             margin-right: auto;
             width: 30%;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .cuerpo img {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 100%;
-            }
         }
 
         a {
@@ -93,7 +82,6 @@
         a img {
             width: 20%;
         }
-
 
         .tira {
             position: absolute;
@@ -148,9 +136,41 @@
             font-family: arial;
         }
 
+        @media only screen and (max-width: 768px) {
+            .cuerpo img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+
+            header img {
+                float: none;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .cuerpo h2 {
+                text-align: center;
+                margin-right: 0;
+            }
+
+            .cuerpo h1 {
+                width: 80%;
+                margin-left: 10%;
+            }
+
+            .low img {
+                width: 100%;
+                height: auto;
+            }
+
+            .tira {
+                font-size: 10px;
+            }
+        }
     </style>
 </head>
-
 <body>
     <header>
         <a href="https://wonderconsultora.com.ar/"><img src="logo.png" alt="Logo"></a>
@@ -171,5 +191,4 @@
     </div>
     <div class="tira"> Made by gussy.com.ar </div>
 </body>
-
 </html>
