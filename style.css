@@ -80,6 +80,86 @@ body {
     left: 0;
 }
 
+@media only screen and (max-width: 1360px) {
+    body {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        margin-left: 7%;
+    }
+
+    .logo a img {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .psd img {
+        width: 50%;
+        float: none;
+        top: 0;
+        right: 0;
+    }
+
+    .cuerpo h1 {
+        width: 50%;
+        margin: 10px auto;
+        font-size: 30px;
+    }
+
+    .cuerpo img {
+        float: left;
+        margin: 10px auto;
+        width: 25%;
+        position: relative;
+        display: block;
+        left: 0;
+        margin-left: 20%;
+        margin-right: 0px;
+    }
+
+    .cuerpo h2 {
+        margin: 20px auto;
+        font-size: 21px;
+        float: left;
+        width: 300px;
+        margin-left: 7%;
+        margin-top: 50px;
+    }
+
+    .redes {
+        padding-right: 0;
+        padding: 10px 0;
+        margin-left: 100px;
+        float: right;
+        margin-right: 25%;
+    }
+
+    .redes .facebook {
+        width: 30px;
+        right: 0;
+    }
+
+    .redes .instagram {
+        width: 30px;
+        right: 0;
+        margin-right: 0;
+    }
+
+    .pii img {
+        width: 50%;
+        float: none;
+        position: absolute;
+        left: 0;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     body {
         padding: 10px;
@@ -115,7 +195,7 @@ body {
     .cuerpo img {
         float: none;
         margin: 10px auto;
-        width: 60%;
+        width: 40%;
         position: relative;
         display: block;
     }
@@ -124,12 +204,15 @@ body {
         text-align: center;
         margin: 20px auto;
         font-size: 20px;
+        float: none;
     }
 
     .redes {
         padding-right: 0;
         padding: 10px 0;
-        margin-left: 100px;
+        margin-left: 35%;
+        float: none;
+        width: 200px;
     }
 
     .redes .facebook {
@@ -147,6 +230,6 @@ body {
         width: 90%;
         float: none;
         left: 0;
-        bottom: 0;
+        bottom: auto;
     }
 }
