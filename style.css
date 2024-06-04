@@ -213,14 +213,15 @@ body {
     }
 
     .redes .facebook {
-        width: 5vw;
+        width: 8vw;
         right: 0;
     }
 
     .redes .instagram {
-        width: 5vw;
+        width: 8vw;
         right: 0;
-        margin-right: 9.5vw;
+        margin-right: 4.5vw;
+        margin-left: 4vw
     }
 
     .pii img {
