@@ -191,15 +191,16 @@ body {
     .cuerpo img {
         float: none;
         margin: 1vw auto;
-        width: 40vw;
+        width: 45vw;
         position: relative;
         display: block;
     }
 
     .cuerpo h2 {
+        margin-top: 10vw;
         text-align: center;
-        margin: 2vw auto;
-        font-size: 3vw;
+        margin: 5vw auto 2vw auto;
+        font-size: 4vw;
         float: none;
     }
 
@@ -212,19 +213,68 @@ body {
     }
 
     .redes .facebook {
-        width: 3vw;
+        width: 5vw;
         right: 0;
     }
 
     .redes .instagram {
-        width: 3vw;
+        width: 5vw;
         right: 0;
-        margin-right: 10vw;
+        margin-right: 9.5vw;
     }
 
     .pii img {
         width: 90vw;
         float: none;
         left: 0;    
+    }
+}
+
+@media only screen and (min-height: 700px) and (max-width: 500px) {
+    .cuerpo img {
+        width: 60vw;
+        margin-top: 7vh;
+    }
+
+    .cuerpo h2 {
+        font-size: 6vw;
+    }
+
+    .cuerpo h1 {
+        font-size: 7vw;
+    }
+
+    .redes a {
+        margin-top: 3vw;
+    }
+
+    .redes img {
+        margin-top: 3vw;
+    }
+}
+
+@media only screen and (min-height: 1023px) and (max-height: 1369px) and (min-width: 767px) and (max-width: 1025px) {
+    .cuerpo img {
+        width: 50vw;
+    }
+
+    .cuerpo h2 {
+        text-align: center;
+        font-size: 5vw;
+        margin: 7vw 13vw;
+    }
+
+    .cuerpo h1 {
+        font-size: 4vw;
+    }
+
+    .redes {
+        width: 100%;
+        height: auto;
+        padding-right: 19.5vw !important;
+    }
+
+    .redes img {
+        width: 8vw !important; 
     }
 }
